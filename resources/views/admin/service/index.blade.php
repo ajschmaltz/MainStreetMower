@@ -34,7 +34,7 @@
           <tbody>
             @foreach ($orders as $order)
               <tr>
-                <th>1</th>
+                <th>{{ $order->tag }}</th>
                 <td>{{ $order->phone }}</td>
                 <td>
                   @foreach ($order->messages as $message)
