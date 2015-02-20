@@ -14,7 +14,7 @@
               <input type="text" name="tag" class="form-control" placeholder="tag id" size="4" />
             </div>
             <div class="form-group">
-              <input type="text" name="phone" class="form-control" placeholder="phone number" />
+              <input type="number" name="phone" class="form-control" placeholder="phone number" />
             </div>
             <div class="form-group">
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
