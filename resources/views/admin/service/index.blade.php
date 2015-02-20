@@ -42,7 +42,7 @@
                   @endforeach
                   <form method="post" action="/admin/service/message/{{ $order->id }}" class="form-inline">
                     <div class="form-group form-group-sm">
-                      <input type="text" name="message" class="form-control" maxlength="140" />
+                      <textarea name="message" class="form-control" rows="3" maxlength="141"></textarea>
                     </div>
                     <div class="form-group form-group-sm">
                       <input type="hidden" name="_token" value="{{ csrf_token() }}">
