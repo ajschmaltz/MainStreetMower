@@ -11,10 +11,10 @@
         <div class="panel-body">
           <form method="post" action="/admin/service/order" class="form-inline">
             <div class="form-group">
-              <input type="text" name="tag" class="form-control" placeholder="tag id" size="4" />
+              <input type="text" name="tag" class="form-control" placeholder="tag" size="3" maxlength="3" required="required" />
             </div>
             <div class="form-group">
-              <input type="number" name="phone" class="form-control" placeholder="phone number" />
+              <input type="text" pattern="\d*" name="phone" class="form-control" placeholder="phone number" minlength="10" required="required" />
             </div>
             <div class="form-group">
               <input type="hidden" name="_token" value="{{ csrf_token() }}">
