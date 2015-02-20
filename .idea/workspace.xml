@@ -26,7 +26,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="29" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5436364" vertical-offset="1702" max-vertical-offset="2461">
+            <state line="67" column="14" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.5606618" vertical-offset="1236" max-vertical-offset="2921">
               <folding />
             </state>
           </provider>
@@ -131,10 +131,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="291" />
-    <option name="width" value="1372" />
-    <option name="height" value="691" />
+    <option name="x" value="25" />
+    <option name="y" value="99" />
+    <option name="width" value="1355" />
+    <option name="height" value="685" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,7 +247,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="291" width="1372" height="691" extended-state="0" />
+    <frame x="25" y="99" width="1355" height="685" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -255,7 +255,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25313655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -409,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="29" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5436364" vertical-offset="1702" max-vertical-offset="2461">
+        <state line="67" column="14" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.5606618" vertical-offset="1236" max-vertical-offset="2921">
           <folding />
         </state>
       </provider>

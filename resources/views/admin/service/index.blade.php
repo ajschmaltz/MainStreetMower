@@ -3,10 +3,10 @@
 @section ('title', 'MSM Service')
 
 @section('content')
-<div class="container" ng-app="msmService">
+<div class="container" ng-app="msmService" ng-controller="ordersCtrl">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="panel panel-default" ng-controller="ordersCtrl">
+      <div class="panel panel-default">
         <div class="panel-heading">Repairs</div>
         <div class="panel-body">
           <form method="post" ng-submit="submitOrder()" class="form-inline">
@@ -37,14 +37,7 @@
               <td>[[ order.phone ]]</td>
               <td>
                 <div ng-repeat="message in order.messages"><strong>[[ message.sender ]]:</strong> [[ message.message ]]</div>
-                <form method="post" ng-submit="submitMessage(order.id, newMessage.message)" class="form-inline">
-                  <div class="form-group form-group-sm">
-                    <textarea ng-model="newMessage.message" name="message" class="form-control" rows="3" maxlength="141"></textarea>
-                  </div>
-                  <div class="form-group form-group-sm">
-                    <button type="submit" class="btn btn-sm btn-default">Send</button>
-                  </div>
-                </form>
+                <button ng-click="openModal(order.id)" class="btn btn-primary btn-xs">Message</button>
               </td>
               <td>
                 <div ng-click="deleteOrder(order.id)"type="submit" class="btn btn-sm btn-danger">Delete</div>
@@ -52,6 +45,27 @@
             </tr>
           </tbody>
         </table>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Write Message</h4>
+        </div>
+        <div class="modal-body">
+          <form method="post" ng-submit="submitMessage()" class="form">
+            <div class="form-group">
+              <textarea ng-model="message" name="message" class="form-control" rows="3" maxlength="141"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-sm btn-primary">Send</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>
@@ -67,6 +81,11 @@
 
   msmService.controller('ordersCtrl', ['$scope', '$http', function($scope, $http){
 
+    $scope.openModal = function(id) {
+      $scope.id = id;
+      $('#myModal').modal();
+    };
+
     var refresh = function(){
       $http.get('/admin/service/orders').success(function(data){
         $scope.orders = data;
@@ -77,8 +96,9 @@
 
     setInterval(function(){ refresh(); }, 5000);
 
-    $scope.submitMessage = function(id, message){
-      $http.post('/admin/service/message', {id: id, message: message}).success(function(){
+    $scope.submitMessage = function(){
+      $http.post('/admin/service/message', {id: $scope.id, message: $scope.message}).success(function(){
+        $('#myModal').modal('hide');
         refresh();
       });
     };
