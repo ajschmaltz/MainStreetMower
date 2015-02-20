@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="26" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1587">
+            <state line="65" column="9" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.8402778" vertical-offset="1011" max-vertical-offset="1656">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminServiceController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AdminServiceController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="520" selection-end="520" vertical-scroll-proportion="0.46859083" vertical-offset="276" max-vertical-offset="1748">
+            <state line="24" column="45" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="1748">
               <folding>
                 <element signature="e#39#71#0" expanded="true" />
               </folding>
@@ -118,8 +118,8 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/config/services.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/service/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/service/index.blade.php" />
       </list>
     </option>
   </component>
@@ -379,13 +379,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="26" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.0" vertical-offset="552" max-vertical-offset="1587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Order.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="214" selection-end="214" vertical-scroll-proportion="0.46859083" vertical-offset="0" max-vertical-offset="589">
@@ -395,10 +388,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="520" selection-end="520" vertical-scroll-proportion="0.46859083" vertical-offset="276" max-vertical-offset="1748">
+        <state line="24" column="45" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="1748">
           <folding>
             <element signature="e#39#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="9" selection-start="2487" selection-end="2487" vertical-scroll-proportion="0.8402778" vertical-offset="1011" max-vertical-offset="1656">
+          <folding />
         </state>
       </provider>
     </entry>
