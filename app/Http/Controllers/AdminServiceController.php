@@ -22,9 +22,7 @@ class AdminServiceController extends Controller {
   public function getTwilio(Request $request)
   {
 
-    dd($request);
-    
-    $from = preg_replace('/\\D/', '', $request->get('From'), -1);
+    $from = substr($request->get('From'), 2);
 
     $order = Order::where('phone', $from)->first();
 

@@ -71,7 +71,7 @@
       <file leaf-file-name="AdminServiceController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="4" selection-start="497" selection-end="497" vertical-scroll-proportion="0.39049235" vertical-offset="345" max-vertical-offset="1794">
+            <state line="24" column="45" selection-start="520" selection-end="520" vertical-scroll-proportion="0.46859083" vertical-offset="276" max-vertical-offset="1748">
               <folding>
                 <element signature="e#39#71#0" expanded="true" />
               </folding>
@@ -395,7 +395,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="4" selection-start="497" selection-end="497" vertical-scroll-proportion="0.39049235" vertical-offset="345" max-vertical-offset="1794">
+        <state line="24" column="45" selection-start="520" selection-end="520" vertical-scroll-proportion="0.46859083" vertical-offset="276" max-vertical-offset="1748">
           <folding>
             <element signature="e#39#71#0" expanded="true" />
           </folding>
