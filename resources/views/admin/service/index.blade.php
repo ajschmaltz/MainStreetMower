@@ -61,7 +61,4 @@
     </div>
   </div>
 </div>
-<script type="text/javascript">
-  setTimeout(function () { location.reload(true); }, 5000);
-</script>
 @endsection
