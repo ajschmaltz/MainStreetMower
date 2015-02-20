@@ -8,16 +8,15 @@ use Illuminate\Http\Request;
 
 class AdminServiceController extends Controller {
 
-	/**
-	 * Display a listing of the resource.
-	 *
-	 * @return Response
-	 */
-	public function getIndex()
-	{
-    $orders = Order::all();
-		return view('admin/service/index')->withOrders($orders);
-	}
+  public function getIndex()
+  {
+    return view('admin/service/index');
+  }
+
+  public function getOrders()
+  {
+    return Order::with('messages')->get();
+  }
 
   public function getTwilio(Request $request)
   {
@@ -32,10 +31,10 @@ class AdminServiceController extends Controller {
     ]);
   }
 
-  public function postMessage($id, Request $request)
+  public function postMessage(Request $request)
   {
 
-    $order = Order::find($id);
+    $order = Order::find($request->get('id'));
 
     $order->messages()->create([
       'sender' => 'Me',
@@ -46,7 +45,6 @@ class AdminServiceController extends Controller {
 
     Twilio::message($order->phone, $message);
 
-    return back();
   }
 
   public function postOrder(Request $request)

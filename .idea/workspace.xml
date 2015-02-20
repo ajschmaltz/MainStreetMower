@@ -26,7 +26,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="632" selection-end="632" vertical-scroll-proportion="0.3611111" vertical-offset="160" max-vertical-offset="1587">
+            <state line="87" column="29" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5436364" vertical-offset="1702" max-vertical-offset="2461">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="AdminServiceController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="1748">
+            <state line="47" column="3" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="1113" max-vertical-offset="1702">
               <folding>
                 <element signature="e#39#71#0" expanded="true" />
               </folding>
@@ -131,8 +131,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="133" />
+    <option name="x" value="-10" />
+    <option name="y" value="291" />
     <option name="width" value="1372" />
     <option name="height" value="691" />
   </component>
@@ -247,7 +247,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="133" width="1372" height="691" extended-state="0" />
+    <frame x="-10" y="291" width="1372" height="691" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -370,13 +370,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="46" selection-start="7189" selection-end="7189" vertical-scroll-proportion="0.0" vertical-offset="4126" max-vertical-offset="4738">
@@ -398,9 +391,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="6" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="1748">
+        <state line="47" column="3" selection-start="984" selection-end="984" vertical-scroll-proportion="0.0" vertical-offset="1113" max-vertical-offset="1702">
           <folding>
             <element signature="e#39#71#0" expanded="true" />
           </folding>
@@ -409,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="632" selection-end="632" vertical-scroll-proportion="0.3611111" vertical-offset="160" max-vertical-offset="1587">
+        <state line="87" column="29" selection-start="3416" selection-end="3416" vertical-scroll-proportion="0.5436364" vertical-offset="1702" max-vertical-offset="2461">
           <folding />
         </state>
       </provider>
