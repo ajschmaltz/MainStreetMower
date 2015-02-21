@@ -6,37 +6,28 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 text-center">
+      <div class="col-md-8 col-md-offset-2 text-center">
         <img src="http://mainstreetmower.com/logo.png" class="img-responsive" />
-        <hr/>
-        <h2>Welcome, what brings You here today?</h2>
-        <hr/>
       </div>
     </div>
+    <hr/>
     <div class="row">
-      <div class="col-sm-3 col-xs-6">
-        <div class="thumbnail text-center">
-          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          <strong>Equipment</strong>
-        </div>
+      <div class="col-md-8 col-md-offset-2">
+        <h2>Our Annual Spring Sale is Coming Soon.</h2>
+        <span class="lead">Don't Miss Out... Get an invite & all the details.</span>
       </div>
-      <div class="col-sm-3 col-xs-6">
-        <div class="thumbnail text-center">
-          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          <strong>Parts</strong>
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <div class="thumbnail text-center">
-          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          <strong>Knowledge</strong>
-        </div>
-      </div>
-      <div class="col-sm-3 col-xs-6">
-        <div class="thumbnail text-center">
-          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          <strong>Info</strong>
-        </div>
+    </div>
+    <hr/>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <form class="form-inline">
+          <div class="form-group-lg">
+            <input style="margin-bottom: 10px;" type="text" class="form-control" placeholder="phone number" />
+            <button class="btn-lg btn-success form-control" style="margin-bottom: 10px;">Submit</button>
+          </div>
+        </form>
+        <br/>
+        <i>* Please excuse our lack of a fancy-pants webpage.  Drop us your number and we'll text you the details just before the sale date.  Expect the best prices of the year on the best equipment money can buy.</i>
       </div>
     </div>
   </div>
