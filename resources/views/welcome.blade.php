@@ -28,6 +28,7 @@
         </form>
         <br/>
         <i>* Please excuse our lack of a fancy-pants webpage.  Drop us your number and we'll text you the details just before the sale date.  Expect the best prices of the year on the best equipment money can buy.</i>
+        <br/><br/>
       </div>
     </div>
   </div>
