@@ -11,7 +11,7 @@
         <div class="panel-body">
           <form method="post" ng-submit="submitOrder()" class="form-inline">
             <div class="form-group">
-              <input type="text" ng-model="newOrder.tag" name="tag" class="form-control" placeholder="tag" size="3" maxlength="3" required="required" />
+              <input type="text" ng-model="newOrder.tag" name="tag" class="form-control" placeholder="ref #" size="5" maxlength="10" required="required" />
             </div>
             <div class="form-group">
               <input type="text" ng-model="newOrder.phone" pattern="\d*" name="phone" class="form-control" placeholder="phone number" minlength="10" required="required" />
@@ -25,7 +25,7 @@
         <table class="table table-striped">
           <thead>
             <tr>
-              <th>Tag #</th>
+              <th>Reference #</th>
               <th>Phone #</th>
               <th>Messages</th>
               <th>Action</th>
@@ -98,6 +98,7 @@
 
     $scope.submitMessage = function(){
       $http.post('/admin/service/message', {id: $scope.id, message: $scope.message}).success(function(){
+        $scope.message = '';
         $('#myModal').modal('hide');
         refresh();
       });
