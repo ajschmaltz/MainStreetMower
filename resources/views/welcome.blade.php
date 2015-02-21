@@ -17,25 +17,25 @@
       <div class="col-sm-3 col-xs-6">
         <div class="thumbnail text-center">
           <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          Equipment
+          <strong>Equipment</strong>
         </div>
       </div>
       <div class="col-sm-3 col-xs-6">
         <div class="thumbnail text-center">
           <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          Parts
+          <strong>Parts</strong>
         </div>
       </div>
       <div class="col-sm-3 col-xs-6">
         <div class="thumbnail text-center">
           <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          Knowledge
+          <strong>Knowledge</strong>
         </div>
       </div>
       <div class="col-sm-3 col-xs-6">
         <div class="thumbnail text-center">
           <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
-          Info
+          <strong>Info</strong>
         </div>
       </div>
     </div>
