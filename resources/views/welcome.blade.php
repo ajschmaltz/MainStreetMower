@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 text-center">
-        <img src="http://mainstreetmower.com/logo.png" width="400px"/>
+        <img src="http://mainstreetmower.com/logo.png" class="img-responsive" />
         <hr/>
         <h2>Welcome, what brings You here today?</h2>
         <hr/>
