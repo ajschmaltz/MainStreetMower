@@ -25,10 +25,28 @@ class AdminServiceController extends Controller {
 
     $order = Order::where('phone', $from)->first();
 
-    $order->messages()->create([
-      'sender' => 'Customer',
-      'message' => $request->get('Body')
-    ]);
+    if ($order) { // there was an order in the system with that phone number
+
+      $order->messages()->create([
+        'sender' => 'Customer',
+        'message' => $request->get('Body')
+      ]);
+
+    } else { // there was not an order in the system with that form number
+
+      $order = Order::create([
+        'tag' => 'xxx',
+        'phone' => $from
+      ]);
+
+      $order->messages()->create([
+        'sender' => 'Customer',
+        'message' => $request->get('Body')
+      ]);
+
+    }
+
+
   }
 
   public function postMessage(Request $request)
