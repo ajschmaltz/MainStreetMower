@@ -23,82 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.blade.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="14" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.8729373" vertical-offset="322" max-vertical-offset="1127">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="28" selection-start="3890" selection-end="3890" vertical-scroll-proportion="0.45036766" vertical-offset="2055" max-vertical-offset="2944">
+            <state line="5" column="0" selection-start="73" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2944">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="6" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1311">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="195" column="46" selection-start="7189" selection-end="7189" vertical-scroll-proportion="0.0" vertical-offset="4126" max-vertical-offset="4738">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminServiceController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="30" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="2116">
-              <folding>
-                <element signature="e#39#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1564">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="17" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-              <folding>
-                <marker date="1424392550000" expanded="true" signature="59:298" placeholder="..." />
-                <marker date="1424392550000" expanded="true" signature="78:291" placeholder="..." />
-                <marker date="1424392550000" expanded="true" signature="120:283" placeholder="..." />
-                <marker date="1424392550000" expanded="true" signature="157:274" placeholder="..." />
-                <marker date="1424392550000" expanded="true" signature="229:264" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -126,6 +64,7 @@
         <option value="$PROJECT_DIR$/config/services.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/service/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -190,7 +129,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainStreetMowerOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainStreetMowerOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainStreetMowerOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainStreetMowerOnline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,19 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="17" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-          <folding>
-            <marker date="1424392550000" expanded="true" signature="59:298" placeholder="..." />
-            <marker date="1424392550000" expanded="true" signature="78:291" placeholder="..." />
-            <marker date="1424392550000" expanded="true" signature="120:283" placeholder="..." />
-            <marker date="1424392550000" expanded="true" signature="157:274" placeholder="..." />
-            <marker date="1424392550000" expanded="true" signature="229:264" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="4" selection-start="557" selection-end="579" vertical-scroll-proportion="0.7809847" vertical-offset="253" max-vertical-offset="943">
@@ -363,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="195" column="46" selection-start="7189" selection-end="7189" vertical-scroll-proportion="0.0" vertical-offset="4126" max-vertical-offset="4738">
@@ -400,16 +363,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminServiceController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="30" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="2116">
+        <state line="36" column="30" selection-start="844" selection-end="844" vertical-scroll-proportion="1.3663366" vertical-offset="0" max-vertical-offset="2116">
           <folding>
             <element signature="e#39#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="11" selection-start="17" selection-end="311" vertical-scroll-proportion="0.6072607" vertical-offset="0" max-vertical-offset="606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="625" selection-end="625" vertical-scroll-proportion="0.41749176" vertical-offset="0" max-vertical-offset="606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/service/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="28" selection-start="3890" selection-end="3890" vertical-scroll-proportion="0.45036766" vertical-offset="2055" max-vertical-offset="2944">
+        <state line="5" column="0" selection-start="73" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="14" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.8729373" vertical-offset="322" max-vertical-offset="1127">
           <folding />
         </state>
       </provider>

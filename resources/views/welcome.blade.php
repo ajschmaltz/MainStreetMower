@@ -1,46 +1,44 @@
-<html>
-	<head>
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+@extends ('app')
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
+@section ('title', 'Main Street Mower')
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
+@section('content')
 
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <img src="http://mainstreetmower.com/logo.png" width="400px"/>
+        <hr/>
+        <h2>Welcome, what brings You here today?</h2>
+        <hr/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail text-center">
+          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
+          Equipment
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail text-center">
+          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
+          Parts
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail text-center">
+          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
+          Knowledge
+        </div>
+      </div>
+      <div class="col-sm-3 col-xs-6">
+        <div class="thumbnail text-center">
+          <img src="https://s3.amazonaws.com/msmstatic/logos/logo-toro.png" class="img-responsive" />
+          Info
+        </div>
+      </div>
+    </div>
+  </div>
 
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
-
-			.quote {
-				font-size: 24px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
-		</div>
-	</body>
-</html>
+@endsection
